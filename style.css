@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4; /* Un fondo gris claro */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Un color de texto oscuro */
+  }
+  
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff; /* Fondo blanco para la tabla */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Bordes grises claros */
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #e0e0e0; /* Encabezado gris claro */
+  }
+  
+  tbody tr:nth-child(2n) {
+    background-color: #f9f9f9; /* Filas alternas con un gris muy claro */
+  }
+  
+  /* Colores para cada día */
+  tbody tr td:nth-child(2) { background-color: #e8f5e9; } /* Lunes: verde claro */
+  tbody tr td:nth-child(3) { background-color: #fff3e0; } /* Martes: naranja claro */
+  tbody tr td:nth-child(4) { background-color: #e1f5fe; } /* Miércoles: azul claro */
+  tbody tr td:nth-child(5) { background-color: #f3e5f5; } /* Jueves: morado claro */
+  tbody tr td:nth-child(6) { background-color: #fbe9e7; } /* Viernes: rojo claro */
+  
+  /* Estilo para el encabezado del horario */
+  .h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Un color azul llamativo */
+  }
+  p {
+    text-align: center;
+    color: #92db61; /* Un color gris más claro */
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+  }
